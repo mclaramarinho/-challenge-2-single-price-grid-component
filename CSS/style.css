@@ -1,0 +1,131 @@
+body{
+    font-family: 'Karla';
+    text-align: center;
+    background-color: hsl(204, 43%, 93%);
+}
+
+/*-----------------------------------------------------*/
+
+#main-container{
+    display: inline-block;
+    width: fit-content;
+    text-align: left;
+    margin: 13% 30% 15% 30%;
+    box-shadow: 10px 5px 5px 0px rgba(0, 0, 0, 0.018);
+}
+
+/*-----------------------------------------------------*/
+
+#top-container{
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 45px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#join-header{
+    color: hsl(179, 62%, 43%);
+    width: fit-content;
+}
+
+#money-back{
+    color: hsl(71, 73%, 54%);
+    width: fit-content;
+}
+
+.gain-access{
+    color: hsl(218, 22%, 67);
+    font-size: 16px;
+    line-height: 0.5;
+    width: fit-content;
+}
+
+/*-----------------------------------------------------*/
+
+#left-container{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    float: left;
+
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 25px ;
+    padding-right: 32px;
+
+    border-bottom-left-radius: 10px;
+}
+
+#month-sub{
+    width: fit-content;
+}
+
+#price{
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    margin-right: 15px;
+}
+
+#per-month{
+    color: rgba(255, 255, 255, 0.621);
+    font-size: 16px;
+    line-height: 2;
+}
+
+#description{
+    clear: left;
+    margin-top: 15;
+    width: fit-content;
+}
+
+#sign-up{
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px 87px 15px 87px;
+
+    border: none;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.076);
+
+    margin-top: 15px;
+}
+
+#btn-text{
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration-line: none;
+    color: white;
+}
+
+/*-------------------------------------------------*/
+
+#right-container{
+    background-color: hsla(179, 62%, 43%, 0.784);
+    float: right;
+    color: white;
+    border: none;
+    width: 36%;
+    padding-top: 20px;
+    padding-left: 46px;
+    padding-bottom: 22px ;
+    padding-right: 35px;
+
+    border-bottom-right-radius: 10px;
+}
+
+#why-us{
+    width: fit-content;
+}
+
+.reasons{
+    width: fit-content;
+    line-height: 0.55;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.76);
+}
