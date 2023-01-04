@@ -1,46 +1,52 @@
 body{
-    font-family: 'Karla';
     text-align: center;
-    background-color: hsl(204, 43%, 93%);
+    background-color:  	#E5EFF5;
+    font-family: 'Karla';
+    font-size: 16px ;
 }
 
 /*-----------------------------------------------------*/
 
 #main-container{
-    display: inline-block;
-    width: fit-content;
     text-align: left;
-    margin: 13% 30% 15% 30%;
     box-shadow: 10px 5px 5px 0px rgba(0, 0, 0, 0.018);
+    /*margin: 12% 33% auto 33%;*/
+    width: 40vw;
+    margin: 12% auto auto;
+    
 }
+
 
 /*-----------------------------------------------------*/
 
 #top-container{
     background-color: white;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-right: 45px;
-
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    padding: 5%;
+    text-align: left;
 }
 
 #join-header{
     color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 1.5rem;
     width: fit-content;
+    
 }
 
 #money-back{
     color: hsl(71, 73%, 54%);
     width: fit-content;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-top: 3%;
+
 }
 
-.gain-access{
-    color: hsl(218, 22%, 67);
-    font-size: 16px;
-    line-height: 0.5;
+#gain-access{
+    color: rgb(155, 143, 143);
+    font-size: 1.1rem;
+    line-height: 1.5;
+
     width: fit-content;
 }
 
@@ -49,31 +55,30 @@ body{
 #left-container{
     background-color: hsl(179, 62%, 43%);
     color: white;
-    float: left;
 
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-bottom: 25px ;
-    padding-right: 32px;
-
-    border-bottom-left-radius: 10px;
+    padding: 5%;
+    padding-left: 7%;
 }
 
 #month-sub{
     width: fit-content;
+    font-weight: 700;
+    font-size: 1.3rem;
+    justify-content: left;
 }
 
 #price{
     font-size: 2em;
     font-weight: bold;
-    float: left;
-    margin-right: 15px;
+    width: fit-content;
 }
 
 #per-month{
     color: rgba(255, 255, 255, 0.621);
-    font-size: 16px;
-    line-height: 2;
+    font-size: 1.1rem;
+    text-align: left;
+    width: fit-content;
+    margin-top: 3%   
 }
 
 #description{
@@ -84,7 +89,7 @@ body{
 
 #sign-up{
     background-color: hsl(71, 73%, 54%);
-    padding: 15px 87px 15px 87px;
+    padding: 5% 35% ;
 
     border: none;
     -webkit-border-radius: 7;
@@ -98,7 +103,8 @@ body{
 #btn-text{
     font-family: 'Karla';
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
+    width: fit-content;
     text-decoration-line: none;
     color: white;
 }
@@ -107,25 +113,27 @@ body{
 
 #right-container{
     background-color: hsla(179, 62%, 43%, 0.784);
-    float: right;
     color: white;
     border: none;
-    width: 36%;
-    padding-top: 20px;
-    padding-left: 46px;
-    padding-bottom: 22px ;
-    padding-right: 35px;
+    font-size: 1rem;
+    padding: 5%;
+    padding-bottom: 2%;
+    padding-left: 7%;
 
-    border-bottom-right-radius: 10px;
+
 }
 
 #why-us{
     width: fit-content;
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
-.reasons{
+#reasons{
     width: fit-content;
-    line-height: 0.55;
-    font-size: 14px;
+    line-height: 1.3;
+    font-size: 1rem;
+    padding-top: 5%;
     color: rgba(255, 255, 255, 0.76);
 }
